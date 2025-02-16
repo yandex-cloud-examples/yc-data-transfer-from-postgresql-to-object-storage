@@ -1,0 +1,3 @@
+# Uploading data from Yandex Managed Service for PostgreSQL into Yandex Object Storage through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/docs/data-transfer), you can transfer data from a [Managed Service for PostgreSQL](https://yandex.cloud/docs/managed-postgresql) cluster to your [Object Storage](https://yandex.cloud/docs/storage). See [this tutorial](https://yandex.cloud/docs/data-transfer/tutorials/mpg-to-objstorage) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [postgresql-to-objstorage.tf](postgresql-to-objstorage.tf).
